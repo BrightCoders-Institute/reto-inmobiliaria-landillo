@@ -47,7 +47,7 @@ export const InfoCard: React.FC<PropertyCardProps> = ({ property }) => {
           <Text style={styles.textRent}>${property.monthlyRent}/m</Text>
           <Text style={styles.textRating}>
             <Image source={starIcon} style={styles.iconStar} />
-            {property.rating}
+              {'  ' + property.rating}
           </Text>
           <FavoriteButton />
         </View>
@@ -141,23 +141,24 @@ const styles = StyleSheet.create({
     position:'absolute',
     borderRadius:10,
     backgroundColor: '#FBEDB7',
-    width:50,
+    width:55,
+    height: 30,
     fontSize: 12,
     fontWeight: 'bold',
     textAlign:'center',
     padding: 5,
-    top: 95,
+    top: 100,
     marginLeft:35,
-    alignContent:'center'
   },
   img:{
     position:'absolute',
     width:120,
-    height:130,
+    height:135,
     borderRadius: 5,
   },
   icon: {
     padding: 5,
+    position: 'absolute',
     width: 25,
     height: 25,
     marginRight: 5,
@@ -168,11 +169,6 @@ const styles = StyleSheet.create({
     width: 15,
     height: 15,
     marginBottom: 5,
-    alignContent: 'center'
+    top: 5,
   },
 });
-
-
-
-
-

@@ -10,8 +10,8 @@ export const FavoriteButton = () => {
   };
 
   return (
-    <TouchableOpacity style={ styles.position } onPress={toggleFavorite}>
-      <View style={
+    <TouchableOpacity style={ styles.position } onPress={toggleFavorite} testID="favorite-button">
+      <View testID='viewButton' style={
         [
             styles.button,
             isFavorite && styles.buttonActive
