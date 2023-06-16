@@ -58,4 +58,4 @@ Este proyecto fue desarrollador Orlando ledón (@landillo).
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/457bf503767e4f268bb402e679d20761)](https://app.codacy.com/gh/BrightCoders-Institute/reto-inmobiliaria-landillo/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
-"!https://api.codeclimate.com/v1/badges/11831d7120585050a5b5/test_coverage!":https://codeclimate.com/github/BrightCoders-Institute/reto-inmobiliaria-landillo/test_coverage
+[![Maintainability](https://api.codeclimate.com/v1/badges/11831d7120585050a5b5/maintainability)](https://codeclimate.com/github/BrightCoders-Institute/reto-inmobiliaria-landillo/maintainability)
