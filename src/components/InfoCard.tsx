@@ -157,6 +157,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   icon: {
+    resizeMode:'contain',
     padding: 5,
     position: 'absolute',
     width: 25,
@@ -165,6 +166,7 @@ const styles = StyleSheet.create({
     alignContent: 'center',
   },
   iconStar: {
+    resizeMode:'contain',
     padding: 5,
     width: 15,
     height: 15,

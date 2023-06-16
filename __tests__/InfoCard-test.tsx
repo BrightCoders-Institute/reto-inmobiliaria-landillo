@@ -22,19 +22,9 @@ describe('tests in InfoCard', () => {
     test('renders address property', () => {
         const { getByText } = render(<InfoCard property={property} />)
         expect(getByText('123 Example Street')).toBeDefined();
-    });
-    test('renders area property', () => {
-        const { getByText } = render(<InfoCard property={property} />)
         expect(getByText('1000 ft²')).toBeDefined();
         expect(getByText('123 Example Street')).toBeDefined();
-    });
-
-    test('renders monthlyRent property', () => {
-        const { getByText } = render(<InfoCard property={property} />)
         expect(getByText('$1500/m')).toBeDefined();
-    });
-    test('renders rating property', () => {
-        const { getByText } = render(<InfoCard property={property} />)
         expect(getByText('4')).toBeDefined();
     });
 });
