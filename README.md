@@ -16,3 +16,5 @@ Things you may want to cover:
 - How to Use the Project.
 - Credits
 - Badges
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/457bf503767e4f268bb402e679d20761)](https://app.codacy.com/gh/BrightCoders-Institute/reto-inmobiliaria-landillo/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
